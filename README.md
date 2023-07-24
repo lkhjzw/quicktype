@@ -9,7 +9,7 @@
 -   Read ['A first look at quicktype'](http://blog.quicktype.io/first-look/) for more introduction.
 -   If you have any questions, check out the [FAQ](FAQ.md) first.
 
-### Supported Inputs
+### 支持的输入字符串
 
 | JSON | JSON API URLs | [JSON Schema](https://app.quicktype.io/#s=coordinate) |
 | ---- | ------------- | ----------------------------------------------------- |
@@ -17,7 +17,7 @@
 | TypeScript | GraphQL queries |
 | ---------- | --------------- |
 
-### Target Languages
+### 支持的编程语言
 
 | [Ruby](https://app.quicktype.io/#l=ruby) | [JavaScript](https://app.quicktype.io/#l=js) | [Flow](https://app.quicktype.io/#l=flow) | [Rust](https://app.quicktype.io/#l=rust) | [Kotlin](https://app.quicktype.io/#l=kotlin) |
 | ---------------------------------------- | -------------------------------------------- | ---------------------------------------- | ---------------------------------------- | -------------------------------------------- |
@@ -33,7 +33,7 @@
 
 _Missing your favorite language? Please implement it!_
 
-## Installation
+## 安装
 
 There are many ways to use `quicktype`. [app.quicktype.io](https://app.quicktype.io) is the most powerful and complete UI. The web app also works offline and doesn't send your sample data over the Internet, so paste away!
 
@@ -43,7 +43,7 @@ For the best CLI, we recommend installing `quicktype` globally via `npm`:
 npm install -g quicktype
 ```
 
-Other options:
+其他问题:
 
 -   [Homebrew](http://formulae.brew.sh/formula/quicktype) _(infrequently updated)_
 -   [Xcode extension](https://itunes.apple.com/us/app/paste-json-as-code-quicktype/id1330801220?mt=12)\*
@@ -52,7 +52,7 @@ Other options:
 
 <small>\* limited functionality</small>
 
-## Using `quicktype`
+## 如何使用 `quicktype`
 
 ```bash
 # Run quicktype without arguments for help and options
